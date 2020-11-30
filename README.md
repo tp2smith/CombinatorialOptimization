@@ -17,10 +17,10 @@ The Adversarial Search problem being solved is a game of tic tac toe. The AI wil
 
 The Monte Carlo Tree Search algorithm focuses on a method that is usually used in games to predict the path (moves) that should be taken by the policy 
 to reach the final winning solution. It does this by:
-* 1) Selecting a node from the tree that has the best chance to win.
-2 - Expanding and creating the many children nodes that result from choosing the previous node.
-3 - Simulating/Exploring along the possible path options in order to determine where the best path lies.
-4 - Back-Propogate the newly discovered information into the paths, in order to make a better path decision in the future.
+* 1 Selecting a node from the tree that has the best chance to win.
+* 2 Expanding and creating the many children nodes that result from choosing the previous node.
+* 3 Simulating/Exploring along the possible path options in order to determine where the best path lies.
+* 4 Back-Propogate the newly discovered information into the paths, in order to make a better path decision in the future.
 
 
 ## Two Opt Search - Traveling Saleman Problem 
